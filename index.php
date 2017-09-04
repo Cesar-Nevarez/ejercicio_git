@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ejercicios Git</title>
-</head>
-<body>
-    <?php
-        phpinfo();
-    ?>
-</body>
-</html>
+<?php
+$a = 10;
+$b = 2;
+$c = $a * $b;
+$a = true; //true=1 false=0
+$b = 'cadena';
+
+echo 'Valor de $a = '.$a.', $b = '.$b.', $c = '.$c;
+
+$conexion = mysqli_connect('127.0.0.1', 'root', '', 'bibliotecam',3306);
+print_r($conexion);
